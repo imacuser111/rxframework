@@ -13,4 +13,7 @@
    <FileRef
       location = "group:Example/RxCoreDataPackageExample/RxCoreDataPackageExample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Example/RxThemeExample/RxThemeExample.xcodeproj">
+   </FileRef>
 </Workspace>

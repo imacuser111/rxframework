@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8C8B0E27F16D0F006BF506 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE627F16CF0006BF506 /* UIColor+Common.swift */; };
+		CE8C8B0F27F16D0F006BF506 /* ThemeProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE527F16CF0006BF506 /* ThemeProxy.swift */; };
+		CE8C8B1027F16D10006BF506 /* ThemeAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE727F16CF0006BF506 /* ThemeAttribute.swift */; };
+		CE8C8B1127F16D10006BF506 /* ThemeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B0127F16CF0006BF506 /* ThemeProvider.swift */; };
+		CE8C8B1227F16D10006BF506 /* ThemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE827F16CF0006BF506 /* ThemeService.swift */; };
+		CE8C8B1327F16D14006BF506 /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AEC27F16CF0006BF506 /* UIButton+Theme.swift */; };
+		CE8C8B1427F16D14006BF506 /* UIPageControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF427F16CF0006BF506 /* UIPageControl+Theme.swift */; };
+		CE8C8B1527F16D14006BF506 /* UITAbleViewCell+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF727F16CF0006BF506 /* UITAbleViewCell+Theme.swift */; };
+		CE8C8B1627F16D14006BF506 /* UISwitch+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AEF27F16CF0006BF506 /* UISwitch+Theme.swift */; };
+		CE8C8B1727F16D14006BF506 /* UIToolbar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AEB27F16CF0006BF506 /* UIToolbar+Theme.swift */; };
+		CE8C8B1827F16D14006BF506 /* UIImageView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF227F16CF0006BF506 /* UIImageView+Theme.swift */; };
+		CE8C8B1927F16D14006BF506 /* UILabel+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AFC27F16CF0006BF506 /* UILabel+Theme.swift */; };
+		CE8C8B1A27F16D14006BF506 /* UIViewController+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AFB27F16CF0006BF506 /* UIViewController+Theme.swift */; };
+		CE8C8B1B27F16D14006BF506 /* UISlider+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AFD27F16CF0006BF506 /* UISlider+Theme.swift */; };
+		CE8C8B1C27F16D14006BF506 /* UISegmentedControl+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AFF27F16CF0006BF506 /* UISegmentedControl+Theme.swift */; };
+		CE8C8B1D27F16D14006BF506 /* UITextView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF127F16CF0006BF506 /* UITextView+Theme.swift */; };
+		CE8C8B1E27F16D14006BF506 /* UIActivityIndicatorView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B0027F16CF0006BF506 /* UIActivityIndicatorView+Theme.swift */; };
+		CE8C8B1F27F16D14006BF506 /* CALayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AEA27F16CF0006BF506 /* CALayer+Theme.swift */; };
+		CE8C8B2027F16D14006BF506 /* UIProgressView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF027F16CF0006BF506 /* UIProgressView+Theme.swift */; };
+		CE8C8B2127F16D14006BF506 /* CAShapeLayer+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF927F16CF0006BF506 /* CAShapeLayer+Theme.swift */; };
+		CE8C8B2227F16D14006BF506 /* UITabBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AFA27F16CF0006BF506 /* UITabBar+Theme.swift */; };
+		CE8C8B2327F16D14006BF506 /* UIView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AED27F16CF0006BF506 /* UIView+Theme.swift */; };
+		CE8C8B2427F16D14006BF506 /* UITabBarItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF527F16CF0006BF506 /* UITabBarItem+Theme.swift */; };
+		CE8C8B2527F16D14006BF506 /* UITableView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF627F16CF0006BF506 /* UITableView+Theme.swift */; };
+		CE8C8B2627F16D14006BF506 /* UIBarButtonItem+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AEE27F16CF0006BF506 /* UIBarButtonItem+Theme.swift */; };
+		CE8C8B2727F16D14006BF506 /* UISearchBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF327F16CF0006BF506 /* UISearchBar+Theme.swift */; };
+		CE8C8B2827F16D14006BF506 /* UINavigationBar+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AF827F16CF0006BF506 /* UINavigationBar+Theme.swift */; };
+		CE8C8B2927F16D14006BF506 /* UITextField+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AFE27F16CF0006BF506 /* UITextField+Theme.swift */; };
+		CE8C8B5F27F17039006BF506 /* RxTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C8B5E27F17039006BF506 /* RxTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8C8BB227F18951006BF506 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BB127F18951006BF506 /* RxBlocking */; };
+		CE8C8BB427F18951006BF506 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BB327F18951006BF506 /* RxCocoa */; };
+		CE8C8BB627F18951006BF506 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BB527F18951006BF506 /* RxRelay */; };
+		CE8C8BB827F18951006BF506 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BB727F18951006BF506 /* RxSwift */; };
+		CE8C8BBA27F189AC006BF506 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BB927F189AC006BF506 /* RxCocoa */; };
+		CE8C8BBC27F189B0006BF506 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BBB27F189B0006BF506 /* RxSwift */; };
+		CE8C8BBE27F189B3006BF506 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BBD27F189B3006BF506 /* RxBlocking */; };
+		CE8C8BC027F189CD006BF506 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8BBF27F189CD006BF506 /* RxRelay */; };
 		CEF74B2F27F162E3000850BC /* RxCoreDataPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */; };
 		CEF74B3E27F164BA000850BC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C3727ED5FF900344071 /* CoreDataManager.swift */; };
 		CEF74B3F27F164BA000850BC /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C3C27ED5FF900344071 /* Persistable.swift */; };
@@ -40,15 +77,60 @@
 		CE166C3B27ED5FF900344071 /* RxCoreDataPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxCoreDataPackage.h; sourceTree = "<group>"; };
 		CE166C3C27ED5FF900344071 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		CE166C5327ED600000344071 /* RxCoreDataPackageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCoreDataPackageTests.swift; sourceTree = "<group>"; };
+		CE8C8AE527F16CF0006BF506 /* ThemeProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProxy.swift; sourceTree = "<group>"; };
+		CE8C8AE627F16CF0006BF506 /* UIColor+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Common.swift"; sourceTree = "<group>"; };
+		CE8C8AE727F16CF0006BF506 /* ThemeAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAttribute.swift; sourceTree = "<group>"; };
+		CE8C8AE827F16CF0006BF506 /* ThemeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeService.swift; sourceTree = "<group>"; };
+		CE8C8AEA27F16CF0006BF506 /* CALayer+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AEB27F16CF0006BF506 /* UIToolbar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AEC27F16CF0006BF506 /* UIButton+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AED27F16CF0006BF506 /* UIView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AEE27F16CF0006BF506 /* UIBarButtonItem+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AEF27F16CF0006BF506 /* UISwitch+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISwitch+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF027F16CF0006BF506 /* UIProgressView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF127F16CF0006BF506 /* UITextView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF227F16CF0006BF506 /* UIImageView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF327F16CF0006BF506 /* UISearchBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF427F16CF0006BF506 /* UIPageControl+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF527F16CF0006BF506 /* UITabBarItem+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF627F16CF0006BF506 /* UITableView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF727F16CF0006BF506 /* UITAbleViewCell+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITAbleViewCell+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF827F16CF0006BF506 /* UINavigationBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AF927F16CF0006BF506 /* CAShapeLayer+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AFA27F16CF0006BF506 /* UITabBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AFB27F16CF0006BF506 /* UIViewController+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AFC27F16CF0006BF506 /* UILabel+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AFD27F16CF0006BF506 /* UISlider+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AFE27F16CF0006BF506 /* UITextField+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8AFF27F16CF0006BF506 /* UISegmentedControl+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8B0027F16CF0006BF506 /* UIActivityIndicatorView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Theme.swift"; sourceTree = "<group>"; };
+		CE8C8B0127F16CF0006BF506 /* ThemeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProvider.swift; sourceTree = "<group>"; };
+		CE8C8B0727F16D06006BF506 /* RxTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8C8B5E27F17039006BF506 /* RxTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTheme.h; sourceTree = "<group>"; };
 		CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreDataPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF74B2E27F162E3000850BC /* RxCoreDataPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxCoreDataPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE8C8B0427F16D06006BF506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8C8BBC27F189B0006BF506 /* RxSwift in Frameworks */,
+				CE8C8BBE27F189B3006BF506 /* RxBlocking in Frameworks */,
+				CE8C8BC027F189CD006BF506 /* RxRelay in Frameworks */,
+				CE8C8BBA27F189AC006BF506 /* RxCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF74B2427F162E3000850BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8C8BB627F18951006BF506 /* RxRelay in Frameworks */,
+				CE8C8BB427F18951006BF506 /* RxCocoa in Frameworks */,
+				CE8C8BB827F18951006BF506 /* RxSwift in Frameworks */,
+				CE8C8BB227F18951006BF506 /* RxBlocking in Frameworks */,
 				CEF74BA727F19E12000850BC /* RxSwift in Frameworks */,
 				CEF74BA527F19E12000850BC /* RxRelay in Frameworks */,
 				CEF74BA327F19E12000850BC /* RxCocoa in Frameworks */,
@@ -81,6 +163,7 @@
 			children = (
 				CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */,
 				CEF74B2E27F162E3000850BC /* RxCoreDataPackageTests.xctest */,
+				CE8C8B0727F16D06006BF506 /* RxTheme.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +171,7 @@
 		CE166C2627ED5FF900344071 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CE8C8AE427F16CF0006BF506 /* RxTheme */,
 				CE166C3527ED5FF900344071 /* RxCoreDataPackage */,
 			);
 			path = Sources;
@@ -130,9 +214,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE8C8AE427F16CF0006BF506 /* RxTheme */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C8B5E27F17039006BF506 /* RxTheme.h */,
+				CE8C8AE527F16CF0006BF506 /* ThemeProxy.swift */,
+				CE8C8AE627F16CF0006BF506 /* UIColor+Common.swift */,
+				CE8C8AE727F16CF0006BF506 /* ThemeAttribute.swift */,
+				CE8C8AE827F16CF0006BF506 /* ThemeService.swift */,
+				CE8C8AE927F16CF0006BF506 /* Extensions */,
+				CE8C8B0127F16CF0006BF506 /* ThemeProvider.swift */,
+			);
+			path = RxTheme;
+			sourceTree = "<group>";
+		};
+		CE8C8AE927F16CF0006BF506 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C8AEA27F16CF0006BF506 /* CALayer+Theme.swift */,
+				CE8C8AEB27F16CF0006BF506 /* UIToolbar+Theme.swift */,
+				CE8C8AEC27F16CF0006BF506 /* UIButton+Theme.swift */,
+				CE8C8AED27F16CF0006BF506 /* UIView+Theme.swift */,
+				CE8C8AEE27F16CF0006BF506 /* UIBarButtonItem+Theme.swift */,
+				CE8C8AEF27F16CF0006BF506 /* UISwitch+Theme.swift */,
+				CE8C8AF027F16CF0006BF506 /* UIProgressView+Theme.swift */,
+				CE8C8AF127F16CF0006BF506 /* UITextView+Theme.swift */,
+				CE8C8AF227F16CF0006BF506 /* UIImageView+Theme.swift */,
+				CE8C8AF327F16CF0006BF506 /* UISearchBar+Theme.swift */,
+				CE8C8AF427F16CF0006BF506 /* UIPageControl+Theme.swift */,
+				CE8C8AF527F16CF0006BF506 /* UITabBarItem+Theme.swift */,
+				CE8C8AF627F16CF0006BF506 /* UITableView+Theme.swift */,
+				CE8C8AF727F16CF0006BF506 /* UITAbleViewCell+Theme.swift */,
+				CE8C8AF827F16CF0006BF506 /* UINavigationBar+Theme.swift */,
+				CE8C8AF927F16CF0006BF506 /* CAShapeLayer+Theme.swift */,
+				CE8C8AFA27F16CF0006BF506 /* UITabBar+Theme.swift */,
+				CE8C8AFB27F16CF0006BF506 /* UIViewController+Theme.swift */,
+				CE8C8AFC27F16CF0006BF506 /* UILabel+Theme.swift */,
+				CE8C8AFD27F16CF0006BF506 /* UISlider+Theme.swift */,
+				CE8C8AFE27F16CF0006BF506 /* UITextField+Theme.swift */,
+				CE8C8AFF27F16CF0006BF506 /* UISegmentedControl+Theme.swift */,
+				CE8C8B0027F16CF0006BF506 /* UIActivityIndicatorView+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		CE8C8B0227F16D06006BF506 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8C8B5F27F17039006BF506 /* RxTheme.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF74B2227F162E3000850BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +280,30 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CE8C8B0627F16D06006BF506 /* RxTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8C8B0B27F16D06006BF506 /* Build configuration list for PBXNativeTarget "RxTheme" */;
+			buildPhases = (
+				CE8C8B0227F16D06006BF506 /* Headers */,
+				CE8C8B0327F16D06006BF506 /* Sources */,
+				CE8C8B0427F16D06006BF506 /* Frameworks */,
+				CE8C8B0527F16D06006BF506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxTheme;
+			packageProductDependencies = (
+				CE8C8BB927F189AC006BF506 /* RxCocoa */,
+				CE8C8BBB27F189B0006BF506 /* RxSwift */,
+				CE8C8BBD27F189B3006BF506 /* RxBlocking */,
+				CE8C8BBF27F189CD006BF506 /* RxRelay */,
+			);
+			productName = RxTheme;
+			productReference = CE8C8B0727F16D06006BF506 /* RxTheme.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		CEF74B2627F162E3000850BC /* RxCoreDataPackage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF74B3627F162E3000850BC /* Build configuration list for PBXNativeTarget "RxCoreDataPackage" */;
@@ -159,6 +319,10 @@
 			);
 			name = RxCoreDataPackage;
 			packageProductDependencies = (
+				CE8C8BB127F18951006BF506 /* RxBlocking */,
+				CE8C8BB327F18951006BF506 /* RxCocoa */,
+				CE8C8BB527F18951006BF506 /* RxRelay */,
+				CE8C8BB727F18951006BF506 /* RxSwift */,
 				CEF74BA227F19E12000850BC /* RxCocoa */,
 				CEF74BA427F19E12000850BC /* RxRelay */,
 				CEF74BA627F19E12000850BC /* RxSwift */,
@@ -195,6 +359,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					CE8C8B0627F16D06006BF506 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					CEF74B2627F162E3000850BC = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -213,7 +380,7 @@
 			);
 			mainGroup = CE166BF027ED59EA00344071;
 			packageReferences = (
-				CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */,
+				CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = CE166BFB27ED59EA00344071 /* Products */;
 			projectDirPath = "";
@@ -221,11 +388,19 @@
 			targets = (
 				CEF74B2627F162E3000850BC /* RxCoreDataPackage */,
 				CEF74B2D27F162E3000850BC /* RxCoreDataPackageTests */,
+				CE8C8B0627F16D06006BF506 /* RxTheme */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE8C8B0527F16D06006BF506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF74B2527F162E3000850BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +418,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE8C8B0327F16D06006BF506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8C8B1627F16D14006BF506 /* UISwitch+Theme.swift in Sources */,
+				CE8C8B2627F16D14006BF506 /* UIBarButtonItem+Theme.swift in Sources */,
+				CE8C8B1227F16D10006BF506 /* ThemeService.swift in Sources */,
+				CE8C8B1927F16D14006BF506 /* UILabel+Theme.swift in Sources */,
+				CE8C8B1827F16D14006BF506 /* UIImageView+Theme.swift in Sources */,
+				CE8C8B1B27F16D14006BF506 /* UISlider+Theme.swift in Sources */,
+				CE8C8B1127F16D10006BF506 /* ThemeProvider.swift in Sources */,
+				CE8C8B2427F16D14006BF506 /* UITabBarItem+Theme.swift in Sources */,
+				CE8C8B0F27F16D0F006BF506 /* ThemeProxy.swift in Sources */,
+				CE8C8B2027F16D14006BF506 /* UIProgressView+Theme.swift in Sources */,
+				CE8C8B2527F16D14006BF506 /* UITableView+Theme.swift in Sources */,
+				CE8C8B2927F16D14006BF506 /* UITextField+Theme.swift in Sources */,
+				CE8C8B1427F16D14006BF506 /* UIPageControl+Theme.swift in Sources */,
+				CE8C8B1727F16D14006BF506 /* UIToolbar+Theme.swift in Sources */,
+				CE8C8B2327F16D14006BF506 /* UIView+Theme.swift in Sources */,
+				CE8C8B2827F16D14006BF506 /* UINavigationBar+Theme.swift in Sources */,
+				CE8C8B1A27F16D14006BF506 /* UIViewController+Theme.swift in Sources */,
+				CE8C8B2127F16D14006BF506 /* CAShapeLayer+Theme.swift in Sources */,
+				CE8C8B1327F16D14006BF506 /* UIButton+Theme.swift in Sources */,
+				CE8C8B2727F16D14006BF506 /* UISearchBar+Theme.swift in Sources */,
+				CE8C8B2227F16D14006BF506 /* UITabBar+Theme.swift in Sources */,
+				CE8C8B1527F16D14006BF506 /* UITAbleViewCell+Theme.swift in Sources */,
+				CE8C8B1027F16D10006BF506 /* ThemeAttribute.swift in Sources */,
+				CE8C8B1D27F16D14006BF506 /* UITextView+Theme.swift in Sources */,
+				CE8C8B0E27F16D0F006BF506 /* UIColor+Common.swift in Sources */,
+				CE8C8B1F27F16D14006BF506 /* CALayer+Theme.swift in Sources */,
+				CE8C8B1C27F16D14006BF506 /* UISegmentedControl+Theme.swift in Sources */,
+				CE8C8B1E27F16D14006BF506 /* UIActivityIndicatorView+Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF74B2327F162E3000850BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +607,64 @@
 			};
 			name = Release;
 		};
+		CE8C8B0C27F16D06006BF506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH4AS5QT2C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hua.RxTheme;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8C8B0D27F16D06006BF506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VH4AS5QT2C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hua.RxTheme;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CEF74B3727F162E3000850BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,6 +781,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CE8C8B0B27F16D06006BF506 /* Build configuration list for PBXNativeTarget "RxTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8C8B0C27F16D06006BF506 /* Debug */,
+				CE8C8B0D27F16D06006BF506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEF74B3627F162E3000850BC /* Build configuration list for PBXNativeTarget "RxCoreDataPackage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -534,7 +811,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -545,21 +822,27 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CEF74BA227F19E12000850BC /* RxCocoa */ = {
+		CE8C8BB127F18951006BF506 /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		CE8C8BB327F18951006BF506 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		CEF74BA427F19E12000850BC /* RxRelay */ = {
+		CE8C8BB527F18951006BF506 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		CEF74BA627F19E12000850BC /* RxSwift */ = {
+		CE8C8BB727F18951006BF506 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
+		
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE166BF127ED59EA00344071 /* Project object */;
