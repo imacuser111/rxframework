@@ -8,7 +8,7 @@
 
 import QuartzCore
 import RxSwift
-//import RxCocoa
+import RxCocoa
 
 public extension ThemeProxy where Base: CALayer {
 
