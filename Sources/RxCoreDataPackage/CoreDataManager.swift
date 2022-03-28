@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreData
-import RxCocoa
 
 public final class CoreDataManager {
     
