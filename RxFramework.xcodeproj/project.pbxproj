@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE8C8B0A27F16D06006BF506 /* RxTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C8B0927F16D06006BF506 /* RxTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE8C8B0E27F16D0F006BF506 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE627F16CF0006BF506 /* UIColor+Common.swift */; };
 		CE8C8B0F27F16D0F006BF506 /* ThemeProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE527F16CF0006BF506 /* ThemeProxy.swift */; };
 		CE8C8B1027F16D10006BF506 /* ThemeAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8AE727F16CF0006BF506 /* ThemeAttribute.swift */; };
@@ -102,7 +101,6 @@
 		CE8C8B0027F16CF0006BF506 /* UIActivityIndicatorView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Theme.swift"; sourceTree = "<group>"; };
 		CE8C8B0127F16CF0006BF506 /* ThemeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProvider.swift; sourceTree = "<group>"; };
 		CE8C8B0727F16D06006BF506 /* RxTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8C8B0927F16D06006BF506 /* RxTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxTheme.h; sourceTree = "<group>"; };
 		CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreDataPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF74B2E27F162E3000850BC /* RxCoreDataPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxCoreDataPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,7 +143,6 @@
 			children = (
 				CE166C2627ED5FF900344071 /* Sources */,
 				CE166C4F27ED600000344071 /* Tests */,
-				CE8C8B0827F16D06006BF506 /* RxTheme */,
 				CE166BFB27ED59EA00344071 /* Products */,
 				CE7EAA5527ED6DD500F0A084 /* Frameworks */,
 			);
@@ -250,14 +247,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		CE8C8B0827F16D06006BF506 /* RxTheme */ = {
-			isa = PBXGroup;
-			children = (
-				CE8C8B0927F16D06006BF506 /* RxTheme.h */,
-			);
-			path = RxTheme;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -265,7 +254,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8C8B0A27F16D06006BF506 /* RxTheme.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
