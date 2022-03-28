@@ -16,9 +16,9 @@
 		CEF74B4327F164BA000850BC /* RxCoreDataPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = CE166C3B27ED5FF900344071 /* RxCoreDataPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEF74B4427F164BA000850BC /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C3927ED5FF900344071 /* FetchedResultsControllerSectionObserver.swift */; };
 		CEF74B4527F164C4000850BC /* RxCoreDataPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C5327ED600000344071 /* RxCoreDataPackageTests.swift */; };
-		CEF74B9427F19B0E000850BC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74B9327F19B0E000850BC /* RxCocoa */; };
-		CEF74B9627F19B0E000850BC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74B9527F19B0E000850BC /* RxRelay */; };
-		CEF74B9827F19B0E000850BC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74B9727F19B0E000850BC /* RxSwift */; };
+		CEF74BA327F19E12000850BC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74BA227F19E12000850BC /* RxCocoa */; };
+		CEF74BA527F19E12000850BC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74BA427F19E12000850BC /* RxRelay */; };
+		CEF74BA727F19E12000850BC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74BA627F19E12000850BC /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF74B9827F19B0E000850BC /* RxSwift in Frameworks */,
-				CEF74B9627F19B0E000850BC /* RxRelay in Frameworks */,
-				CEF74B9427F19B0E000850BC /* RxCocoa in Frameworks */,
+				CEF74BA727F19E12000850BC /* RxSwift in Frameworks */,
+				CEF74BA527F19E12000850BC /* RxRelay in Frameworks */,
+				CEF74BA327F19E12000850BC /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,9 +159,9 @@
 			);
 			name = RxCoreDataPackage;
 			packageProductDependencies = (
-				CEF74B9327F19B0E000850BC /* RxCocoa */,
-				CEF74B9527F19B0E000850BC /* RxRelay */,
-				CEF74B9727F19B0E000850BC /* RxSwift */,
+				CEF74BA227F19E12000850BC /* RxCocoa */,
+				CEF74BA427F19E12000850BC /* RxRelay */,
+				CEF74BA627F19E12000850BC /* RxSwift */,
 			);
 			productName = RxCoreDataPackage;
 			productReference = CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */;
@@ -213,7 +213,7 @@
 			);
 			mainGroup = CE166BF027ED59EA00344071;
 			packageReferences = (
-				CEF74B9227F19B0E000850BC /* XCRemoteSwiftPackageReference "RxSwift" */,
+				CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = CE166BFB27ED59EA00344071 /* Products */;
 			projectDirPath = "";
@@ -534,30 +534,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CEF74B9227F19B0E000850BC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CEF74B9327F19B0E000850BC /* RxCocoa */ = {
+		CEF74BA227F19E12000850BC /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEF74B9227F19B0E000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		CEF74B9527F19B0E000850BC /* RxRelay */ = {
+		CEF74BA427F19E12000850BC /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEF74B9227F19B0E000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		CEF74B9727F19B0E000850BC /* RxSwift */ = {
+		CEF74BA627F19E12000850BC /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEF74B9227F19B0E000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = CEF74BA127F19E12000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
