@@ -13,8 +13,32 @@
 		CE8C8B4627F16E30006BF506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B4427F16E30006BF506 /* Main.storyboard */; };
 		CE8C8B4827F16E32006BF506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B4727F16E32006BF506 /* Assets.xcassets */; };
 		CE8C8B4B27F16E32006BF506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B4927F16E32006BF506 /* LaunchScreen.storyboard */; };
-		CE8C8B5427F16E7B006BF506 /* RxTheme in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8B5327F16E7B006BF506 /* RxTheme */; };
+		CE8C8B6527F180A8006BF506 /* RxTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C8B6427F180A8006BF506 /* RxTheme.framework */; };
+		CE8C8B6627F180A8006BF506 /* RxTheme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C8B6427F180A8006BF506 /* RxTheme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE8C8B7127F18188006BF506 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B6927F18188006BF506 /* CountryCode.swift */; };
+		CE8C8B7227F18188006BF506 /* LanguageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B6A27F18188006BF506 /* LanguageList.swift */; };
+		CE8C8B7327F18188006BF506 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B6B27F18188006BF506 /* ColorTheme.swift */; };
+		CE8C8B7427F18188006BF506 /* Light.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B6C27F18188006BF506 /* Light.xcassets */; };
+		CE8C8B7527F18188006BF506 /* IconTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B6D27F18188006BF506 /* IconTheme.swift */; };
+		CE8C8B7627F18188006BF506 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B6E27F18188006BF506 /* Theme.swift */; };
+		CE8C8B7727F18188006BF506 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B6F27F18188006BF506 /* Resource.bundle */; };
+		CE8C8B7827F18188006BF506 /* Dark.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B7027F18188006BF506 /* Dark.xcassets */; };
+		CE8C8B7A27F18275006BF506 /* LocalizationString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B7927F18275006BF506 /* LocalizationString.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE8C8B6727F180A8006BF506 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE8C8B6627F180A8006BF506 /* RxTheme.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE8C8B3B27F16E30006BF506 /* RxThemeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxThemeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +49,16 @@
 		CE8C8B4727F16E32006BF506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8C8B4A27F16E32006BF506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8C8B4C27F16E32006BF506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8C8B6427F180A8006BF506 /* RxTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8C8B6927F18188006BF506 /* CountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
+		CE8C8B6A27F18188006BF506 /* LanguageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageList.swift; sourceTree = "<group>"; };
+		CE8C8B6B27F18188006BF506 /* ColorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		CE8C8B6C27F18188006BF506 /* Light.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Light.xcassets; sourceTree = "<group>"; };
+		CE8C8B6D27F18188006BF506 /* IconTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTheme.swift; sourceTree = "<group>"; };
+		CE8C8B6E27F18188006BF506 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CE8C8B6F27F18188006BF506 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		CE8C8B7027F18188006BF506 /* Dark.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Dark.xcassets; sourceTree = "<group>"; };
+		CE8C8B7927F18275006BF506 /* LocalizationString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8C8B5427F16E7B006BF506 /* RxTheme in Frameworks */,
+				CE8C8B6527F180A8006BF506 /* RxTheme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,7 @@
 			children = (
 				CE8C8B3D27F16E30006BF506 /* RxThemeExample */,
 				CE8C8B3C27F16E30006BF506 /* Products */,
+				CE8C8B6327F180A8006BF506 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +93,8 @@
 		CE8C8B3D27F16E30006BF506 /* RxThemeExample */ = {
 			isa = PBXGroup;
 			children = (
+				CE8C8B7927F18275006BF506 /* LocalizationString.swift */,
+				CE8C8B6827F18188006BF506 /* Automatic */,
 				CE8C8B3E27F16E30006BF506 /* AppDelegate.swift */,
 				CE8C8B4027F16E30006BF506 /* SceneDelegate.swift */,
 				CE8C8B4227F16E30006BF506 /* ViewController.swift */,
@@ -67,6 +104,29 @@
 				CE8C8B4C27F16E32006BF506 /* Info.plist */,
 			);
 			path = RxThemeExample;
+			sourceTree = "<group>";
+		};
+		CE8C8B6327F180A8006BF506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C8B6427F180A8006BF506 /* RxTheme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8C8B6827F18188006BF506 /* Automatic */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C8B6927F18188006BF506 /* CountryCode.swift */,
+				CE8C8B6A27F18188006BF506 /* LanguageList.swift */,
+				CE8C8B6B27F18188006BF506 /* ColorTheme.swift */,
+				CE8C8B6C27F18188006BF506 /* Light.xcassets */,
+				CE8C8B6D27F18188006BF506 /* IconTheme.swift */,
+				CE8C8B6E27F18188006BF506 /* Theme.swift */,
+				CE8C8B6F27F18188006BF506 /* Resource.bundle */,
+				CE8C8B7027F18188006BF506 /* Dark.xcassets */,
+			);
+			path = Automatic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,6 +139,7 @@
 				CE8C8B3727F16E30006BF506 /* Sources */,
 				CE8C8B3827F16E30006BF506 /* Frameworks */,
 				CE8C8B3927F16E30006BF506 /* Resources */,
+				CE8C8B6727F180A8006BF506 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,7 +147,6 @@
 			);
 			name = RxThemeExample;
 			packageProductDependencies = (
-				CE8C8B5327F16E7B006BF506 /* RxTheme */,
 			);
 			productName = RxThemeExample;
 			productReference = CE8C8B3B27F16E30006BF506 /* RxThemeExample.app */;
@@ -117,7 +177,6 @@
 			);
 			mainGroup = CE8C8B3227F16E30006BF506;
 			packageReferences = (
-				CE8C8B5227F16E7B006BF506 /* XCRemoteSwiftPackageReference "rxframework" */,
 			);
 			productRefGroup = CE8C8B3C27F16E30006BF506 /* Products */;
 			projectDirPath = "";
@@ -134,8 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8C8B4B27F16E32006BF506 /* LaunchScreen.storyboard in Resources */,
+				CE8C8B7827F18188006BF506 /* Dark.xcassets in Resources */,
 				CE8C8B4827F16E32006BF506 /* Assets.xcassets in Resources */,
+				CE8C8B7427F18188006BF506 /* Light.xcassets in Resources */,
 				CE8C8B4627F16E30006BF506 /* Main.storyboard in Resources */,
+				CE8C8B7727F18188006BF506 /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8C8B4327F16E30006BF506 /* ViewController.swift in Sources */,
+				CE8C8B7627F18188006BF506 /* Theme.swift in Sources */,
 				CE8C8B3F27F16E30006BF506 /* AppDelegate.swift in Sources */,
+				CE8C8B7227F18188006BF506 /* LanguageList.swift in Sources */,
+				CE8C8B7527F18188006BF506 /* IconTheme.swift in Sources */,
+				CE8C8B7327F18188006BF506 /* ColorTheme.swift in Sources */,
 				CE8C8B4127F16E30006BF506 /* SceneDelegate.swift in Sources */,
+				CE8C8B7A27F18275006BF506 /* LocalizationString.swift in Sources */,
+				CE8C8B7127F18188006BF506 /* CountryCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,25 +436,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CE8C8B5227F16E7B006BF506 /* XCRemoteSwiftPackageReference "rxframework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "http://192.168.12.29/Cheng-Hong/rxframework.git";
-			requirement = {
-				branch = RxTheme;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CE8C8B5327F16E7B006BF506 /* RxTheme */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE8C8B5227F16E7B006BF506 /* XCRemoteSwiftPackageReference "rxframework" */;
-			productName = RxTheme;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE8C8B3327F16E30006BF506 /* Project object */;
 }

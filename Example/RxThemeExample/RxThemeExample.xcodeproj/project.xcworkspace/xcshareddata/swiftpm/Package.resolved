@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RxFramework",
+        "repositoryURL": "http://192.168.12.29/Cheng-Hong/rxframework.git",
+        "state": {
+          "branch": "RxTheme",
+          "revision": "2f3ea251469e9b00e49b216fa81b79addd5adec1",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
