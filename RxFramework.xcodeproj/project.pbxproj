@@ -53,6 +53,9 @@
 		CEF74B4327F164BA000850BC /* RxCoreDataPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = CE166C3B27ED5FF900344071 /* RxCoreDataPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEF74B4427F164BA000850BC /* FetchedResultsControllerSectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C3927ED5FF900344071 /* FetchedResultsControllerSectionObserver.swift */; };
 		CEF74B4527F164C4000850BC /* RxCoreDataPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C5327ED600000344071 /* RxCoreDataPackageTests.swift */; };
+		CEF74BA327F19E12000850BC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74BA227F19E12000850BC /* RxCocoa */; };
+		CEF74BA527F19E12000850BC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74BA427F19E12000850BC /* RxRelay */; };
+		CEF74BA727F19E12000850BC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEF74BA627F19E12000850BC /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +131,9 @@
 				CE8C8BB427F18951006BF506 /* RxCocoa in Frameworks */,
 				CE8C8BB827F18951006BF506 /* RxSwift in Frameworks */,
 				CE8C8BB227F18951006BF506 /* RxBlocking in Frameworks */,
+				CEF74BA727F19E12000850BC /* RxSwift in Frameworks */,
+				CEF74BA527F19E12000850BC /* RxRelay in Frameworks */,
+				CEF74BA327F19E12000850BC /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +323,9 @@
 				CE8C8BB327F18951006BF506 /* RxCocoa */,
 				CE8C8BB527F18951006BF506 /* RxRelay */,
 				CE8C8BB727F18951006BF506 /* RxSwift */,
+				CEF74BA227F19E12000850BC /* RxCocoa */,
+				CEF74BA427F19E12000850BC /* RxRelay */,
+				CEF74BA627F19E12000850BC /* RxSwift */,
 			);
 			productName = RxCoreDataPackage;
 			productReference = CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */;
@@ -833,26 +842,7 @@
 			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		CE8C8BB927F189AC006BF506 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		CE8C8BBB27F189B0006BF506 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		CE8C8BBD27F189B3006BF506 /* RxBlocking */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxBlocking;
-		};
-		CE8C8BBF27F189CD006BF506 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE8C8BB027F18951006BF506 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
+		
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE166BF127ED59EA00344071 /* Project object */;
