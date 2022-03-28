@@ -38,7 +38,7 @@
 		CE8C8B2B27F16D93006BF506 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8B2A27F16D93006BF506 /* RxSwift */; };
 		CE8C8B2D27F16D9B006BF506 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8B2C27F16D9B006BF506 /* RxCocoa */; };
 		CE8C8B2F27F16D9F006BF506 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8B2E27F16D9F006BF506 /* RxRelay */; };
-		CE8C8B3127F16DA4006BF506 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = CE8C8B3027F16DA4006BF506 /* RxBlocking */; };
+		CE8C8B5F27F17039006BF506 /* RxTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C8B5E27F17039006BF506 /* RxTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEF74B2F27F162E3000850BC /* RxCoreDataPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */; };
 		CEF74B3E27F164BA000850BC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C3727ED5FF900344071 /* CoreDataManager.swift */; };
 		CEF74B3F27F164BA000850BC /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE166C3C27ED5FF900344071 /* Persistable.swift */; };
@@ -101,6 +101,7 @@
 		CE8C8B0027F16CF0006BF506 /* UIActivityIndicatorView+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Theme.swift"; sourceTree = "<group>"; };
 		CE8C8B0127F16CF0006BF506 /* ThemeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProvider.swift; sourceTree = "<group>"; };
 		CE8C8B0727F16D06006BF506 /* RxTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8C8B5E27F17039006BF506 /* RxTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTheme.h; sourceTree = "<group>"; };
 		CEF74B2727F162E3000850BC /* RxCoreDataPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCoreDataPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF74B2E27F162E3000850BC /* RxCoreDataPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxCoreDataPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,7 +112,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8C8B2F27F16D9F006BF506 /* RxRelay in Frameworks */,
-				CE8C8B3127F16DA4006BF506 /* RxBlocking in Frameworks */,
 				CE8C8B2D27F16D9B006BF506 /* RxCocoa in Frameworks */,
 				CE8C8B2B27F16D93006BF506 /* RxSwift in Frameworks */,
 			);
@@ -207,6 +207,7 @@
 		CE8C8AE427F16CF0006BF506 /* RxTheme */ = {
 			isa = PBXGroup;
 			children = (
+				CE8C8B5E27F17039006BF506 /* RxTheme.h */,
 				CE8C8AE527F16CF0006BF506 /* ThemeProxy.swift */,
 				CE8C8AE627F16CF0006BF506 /* UIColor+Common.swift */,
 				CE8C8AE727F16CF0006BF506 /* ThemeAttribute.swift */,
@@ -254,6 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8C8B5F27F17039006BF506 /* RxTheme.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +288,6 @@
 				CE8C8B2A27F16D93006BF506 /* RxSwift */,
 				CE8C8B2C27F16D9B006BF506 /* RxCocoa */,
 				CE8C8B2E27F16D9F006BF506 /* RxRelay */,
-				CE8C8B3027F16DA4006BF506 /* RxBlocking */,
 			);
 			productName = RxTheme;
 			productReference = CE8C8B0727F16D06006BF506 /* RxTheme.framework */;
@@ -820,11 +821,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CEF74B4627F16523000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
-		};
-		CE8C8B3027F16DA4006BF506 /* RxBlocking */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEF74B4627F16523000850BC /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxBlocking;
 		};
 		CEF74B4727F16523000850BC /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
