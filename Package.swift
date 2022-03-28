@@ -16,13 +16,13 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.2.0"),
-        .package(url: "https://github.com/daltoniam/Starscream", from: "4.0.4"),
+//        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.2.0"),
+//        .package(url: "https://github.com/daltoniam/Starscream", from: "4.0.4"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(name: "RxWebSocketPackage", dependencies: [.product(name: "Starscream", package: "https://github.com/daltoniam/Starscream")]),
-        .target(name: "RxCoreDataPackage", dependencies: [.product(name: "RxSwift", package: "https://github.com/ReactiveX/RxSwift")]),
+        .target(name: "RxWebSocketPackage"),
+        .target(name: "RxCoreDataPackage"),
     ]
 )
