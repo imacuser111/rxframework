@@ -11,9 +11,6 @@
       location = "group:RxFramework.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Example/ExampleWebSocket/ExampleWebSocket.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Example/RxCoreDataPackageExample/RxCoreDataPackageExample.xcodeproj">
    </FileRef>
 </Workspace>
