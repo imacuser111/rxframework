@@ -8,26 +8,6 @@
 import Foundation
 import UIKit
 
-extension UIColor{
-    
-    //狀態列底色
-    static var statusBar : UIStatusBarStyle{
-        get{
-            switch themeService.type {
-            case .light:
-                if #available(iOS 13.0, *) {
-                    return .darkContent
-                } else {
-                    // Fallback on earlier versions
-                    return .default
-                }
-            case .dark:
-                return .lightContent
-            }
-        }
-    }
-}
-
 extension UIColor {
     convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
