@@ -24,6 +24,7 @@
 		CE8C8B7727F18188006BF506 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B6F27F18188006BF506 /* Resource.bundle */; };
 		CE8C8B7827F18188006BF506 /* Dark.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C8B7027F18188006BF506 /* Dark.xcassets */; };
 		CE8C8B7A27F18275006BF506 /* LocalizationString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8B7927F18275006BF506 /* LocalizationString.swift */; };
+		CEFAD6E227F2E4A90012B6D1 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAD6E127F2E4A90012B6D1 /* UIColor+Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		CE8C8B6F27F18188006BF506 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		CE8C8B7027F18188006BF506 /* Dark.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Dark.xcassets; sourceTree = "<group>"; };
 		CE8C8B7927F18275006BF506 /* LocalizationString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationString.swift; sourceTree = "<group>"; };
+		CEFAD6E127F2E4A90012B6D1 /* UIColor+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Common.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		CE8C8B3D27F16E30006BF506 /* RxThemeExample */ = {
 			isa = PBXGroup;
 			children = (
+				CEFAD6E127F2E4A90012B6D1 /* UIColor+Common.swift */,
 				CE8C8B7927F18275006BF506 /* LocalizationString.swift */,
 				CE8C8B6827F18188006BF506 /* Automatic */,
 				CE8C8B3E27F16E30006BF506 /* AppDelegate.swift */,
@@ -212,6 +215,7 @@
 				CE8C8B7627F18188006BF506 /* Theme.swift in Sources */,
 				CE8C8B3F27F16E30006BF506 /* AppDelegate.swift in Sources */,
 				CE8C8B7227F18188006BF506 /* LanguageList.swift in Sources */,
+				CEFAD6E227F2E4A90012B6D1 /* UIColor+Common.swift in Sources */,
 				CE8C8B7527F18188006BF506 /* IconTheme.swift in Sources */,
 				CE8C8B7327F18188006BF506 /* ColorTheme.swift in Sources */,
 				CE8C8B4127F16E30006BF506 /* SceneDelegate.swift in Sources */,
